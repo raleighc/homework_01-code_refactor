@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <!--change div here to header-->
-    <div class="header">
+    <!--changed div here to header-->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!--change this div to nav-->
-        <div>
+        <!--changed this div to nav-->
+        <nav>
             <ul>
                 <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
                 
@@ -23,11 +23,13 @@
                 
                 <li><a href="#social-media-marketing">Social Media Marketing</a></li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <!--This "hero" is the hero image on the site. The image URL is in the .css-->
-    <!--maybe keep this as a div as it doesnt really apply to anything else-->
-    <div class="hero"></div>
+    <!--changed to id for single occurance, changed to figure, added span role with aria-label because I couldnt use an alt tag-->
+    <figure id="hero" >
+        <span role="img" aria-label="four collegues holding a meeting on conference room table"> </span>
+    </figure>
     
     <!--change div section-->
     <div class="content">
@@ -43,7 +45,7 @@
         </div>
         <!--change to article-->
         <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+            <img src="./assets/images/online-reputation-management.jpg" alt="person using computer displaying a rising reputation graph" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an
@@ -53,7 +55,7 @@
         </div>
         <!--change to article-->
         <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+            <img src="./assets/images/social-media-marketing.jpg" alt="six people sitting around a table covered with social media related icons" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you
