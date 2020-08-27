@@ -6,6 +6,7 @@
 
 body {
   background-color: #d9dcd6;
+  font-size: 16px;
 }
 /*changed all of these to a regular header and nav*/
 header {
@@ -47,10 +48,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
-
 #hero {
   height: 800px;
   width: 100%;
@@ -60,7 +57,6 @@ p {
   background-position: center;
 }
 
-/*maybe change these?*/
 .float-left {
   float: left;
   margin-right: 25px;
@@ -120,11 +116,6 @@ h3 {
 /*grouped 3 elements that were the same*/
 .content-prop img {
   max-height: 200px;
-}
-/*eliminated sub tag and grouped all 3 h2 elements together*/
-h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 footer {
