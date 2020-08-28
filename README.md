@@ -2,11 +2,15 @@
 
 Horiseon is a marketing firm here to assist you with your online presence and reach.
 
+[Horiseon Webpage](https://raleighc.github.io/homework_01-code_refactor/)
+
 ## Installation
 
 Installation onto your device is pulled from the GitHub repository,
 [Horiseon Repository](https://github.com/raleighc/homework_01-code_refactor),
-using the "code" dropdown button, copy the "clone with SSH" text. ![repository code copy](./assets/images/repopull.png)
+using the "code" dropdown button, copy the "clone with SSH" text. 
+
+![repository code copy](./assets/images/repopull.png)
 
 Then, using terminal/gitbash, paste the address after the command "git pull" to retrieve the site files.
 
